@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+  }
+  .container{
+   
+    background-color:rgba(169, 169, 169, 0.459);
+    border-style: groove;
+    display:flex;
+    align-items: stretch;
+    margin: 20px 50px;
+    padding: 1rem;
+  }
+  img{
+    height:5.5rem;
+    width: 5.5rem;
+    border: 1px solid black;
+  }
+  
+  .userName{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+    padding: 0px;
+  }
+  .userDiscription{
+    font-size: 0.7rem;
+    margin: 5px ;
+    padding: 0px;
+  }
+  .userDetails{
+    margin: 0 0 0 10px;
+  }
+  .inner-container{
+    display: flex;
+   align-items: center;
+    font-size: 10px;
+  }
+  .star{
+    display:flex;
+    margin: 10px 5px 0 5px;
+    padding: 10px;
+    height: 1rem;
+    width: 5rem;
+    border: 1px solid rgb(147, 140, 140);
+  }
+  .starNo{
+    align-items: center;
+    margin-top: 7px;
+  }
+  .issues{
+    margin: 10px 0 0 5px;
+    padding: 10px;
+    height: 1rem;
+    width: 5rem;
+    border: 1px solid rgb(147, 140, 140);
+  }
+  
+  .lastUpdate{
+    margin: 10px 0 0 5px;
+    padding: 10px;
+    align-items: center;
+  }
+  .drillDown{
+    margin-left: auto;
+    margin-top: inherit;
+    border-style: none;
+  }

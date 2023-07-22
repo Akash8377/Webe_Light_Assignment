@@ -1,0 +1,47 @@
+.Pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+  }
+  
+  
+  .MuiPagination-ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .MuiPaginationItem-root {
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 50%;
+    min-width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+  
+  .MuiPaginationItem-root:hover {
+    background-color: #ccc;
+  }
+  
+  .Mui-selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+
+  .MuiPaginationItem-outlined {
+    border: 1px solid #007bff; 
+    color: #007bff;
+  }
+  
+  .MuiPaginationItem-outlined:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
